@@ -5,36 +5,59 @@ function sonIguales(x, y) {
    // Retorna true si "x" e "y" son iguales.
    // De lo contrario, retorna false.
    // Tu código:
+
+   // solucion 1
+   if (x === y) {   //'3'==3 y ahi puedo ocupar el doble pero no el triple . 
+   return true;
+   } else {
+      return false;
+   }
+   // solucion 2
+    //return x === y
 }
 
 function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
    // De lo contrario, retorna false.
    // Tu código:
+   return str1.length === str2.length
 }
 
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
    // Tu código:
+   return (num < 90);
 }
 
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
    // De lo contrario, retorna false.
    // Tu código:
+   return num > 50;
 }
 
 function esPar(num) {
    // Retorna true si "num" es par.
    // De lo contrario, retorna false.
    // Tu código:
+   return num % 2  === 0;
 }
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
+
+   //1ra solucion 
+   if (num % 2 !== 0) {
+       return true;
+    } else {
+      return false;
+   }
+
+   //2da solucion (num % 2  === 1)
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

@@ -1,0 +1,7 @@
+//variables
+
+var numero = 123;
+
+console.log(numero)
+var nombre = 'ali'
+console.log(nombre)
